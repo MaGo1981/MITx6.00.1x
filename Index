@@ -34,7 +34,7 @@
 2.17 Exercise 6 - Evaluating Expressions (for in, if, elif, else).docx
 2.18 Video- Guess and Check.mp4
 2.19 Exercise 7 - Reading Code (While, For in, break).docx
- PS1 Problem 1 - Count vowels (strings, input, for loop, boolean).docx
+PS1 Problem 1 - Count vowels (strings, input, for loop, boolean).docx
 PS1 Problem 2 - Count 'bob' (string slice, for loop, boolean).docx
 PS1 Problem 3 - Count biggest slice (for in range, boolean - if, else, less then).docx
 3.1 Video- So Far....mp4
@@ -77,3 +77,29 @@ PS2 Introduction.docx
 PS2 Problem 1 - Paying Debt off in a Year (functions, while loop).docx
 PS2 Problem 2 - Paying Debt Off in a Year (functions, while loop).docx
 PS2 Problem 3 - Using Bisection Search to Make the Program Faster (functions, bisection search, while loop, range, round).docx
+PS3 Introduction (string into list OF WORDS, methods random, open, readline; functions, import).docx
+5.1 Video - Tuples.mp4
+5.2 Exercise 1 (tuples, objects, types, range & indexing, immutability).docx
+5.3 Exercise - odd tuples (functions, touples, for loop, boolean).docx
+5.4 Video - Lists.mp4
+5.5 Exercise 2 (list, objects, types, range & indexing, mutability).docx
+5.6 Video - List Operations.mp4
+5.7 Exercise 3 (lists, functions or methods, mutation vs return, types, brackets).docx
+5.8 Video -  Mutation, Aliasing, Cloning.mp4
+5.9 Exercise 4(lists, aliases, methods, cloning, objects, mutation, types).docx
+5.10 Video - Functions as Objects.mp4
+5.11 Exercise - apply to each (simple form HOP, lists, functions, range, len, for loop).docx
+5.12 Exercise 5 (general form HOP, lists, functions, range, len, for loop).docx
+6.1 Video - Quick Review.mp4
+6.2 Video - Dictionaries.mp4
+6.3 Exercise 1 (dictionaries, mutability, look-up, len, keys&values methods, booleans, add & remove).docx
+6.4 Video - Example with a Dictionary.mp4
+6.4.1_3_functions_to analyse_song_lyrics.py
+6.5 Exercise - how many (values) (dictionary of lists, len, for loop).docx
+6.6 Exercise - biggest (number of values, dictionary of lists, len, for loop, boolean).docx
+6.7. Video - Fibonacci and Dictionaries.mp4
+6.8 Video - Global Variables.mp4
+PS3 Problem 1 - Is the Word Guessed -  function (string into list OF LETTERS, compare list elements with IF IN - FOR IN, mutation - methods append and remove, boolean, len).docx
+PS3  Problem 2 - Printing Out the User's Guess - function (string into list OF LETTERS, compare lists with indexing FOR-IN-RANGE-LEN, mutation, join - list into string).docx
+PS3 Problem 3 - Printing Out all Available Letters - function (string.ascii_lowercase into list, for in mutation - remove, join list into strint).docx
+PS3 Problem 4 - The Game - function (boolean, list as an argument to a function, mutation, while, function calls other functions, break).docx
