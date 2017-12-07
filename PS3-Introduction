@@ -143,3 +143,27 @@
     
 
 # On the next page, we'll break down the problem into logical subtasks, creating helper functions you will need to have in order for this game to work.
+
+def loadWords(): # STRING INTO A LIST OF WORDS
+    """
+    Returns a list of valid words. Words are strings of lowercase letters.
+    
+    Depending on the size of the word list, this function may
+    take a while to finish.
+    """
+    print("Loading word list from file...")
+    # inFile: file
+    inFile = open(WORDLIST_FILENAME, 'r') # otvara dokument
+    # line: string
+    line = inFile.readline() # cita dokument
+    # wordlist: list of strings
+    wordlist = line.split() # pretvara tekst u listu rijeci
+    print("  ", len(wordlist), "words loaded.")
+    return wordlist # vraca listu rijeci
+def chooseWord(wordlist): # RETURNS RANDOM WORD FROM THE LIST
+    """
+    wordlist (list): list of words (strings)
+
+    Returns a word from wordlist at random
+    """
+    return random.choice(wordlist)
