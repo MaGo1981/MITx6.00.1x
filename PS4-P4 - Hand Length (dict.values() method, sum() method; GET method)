@@ -1,0 +1,25 @@
+#Problem 4 - Hand Length
+
+#We are now ready to begin writing the code that interacts with the player. We'll be implementing the playHandfunction. 
+#This function allows the user to play out a single hand. First, though, you'll need to implement the helper 
+#calculateHandlen function, which can be done in under five lines of code.
+
+#Code Editor
+
+
+def calculateHandlen(hand):
+    """ 
+    Returns the length (number of letters) in the current hand.
+    
+    hand: dictionary (string-> int)
+    returns: integer
+    """
+    sum = 0
+    for item in hand:
+        sum += hand.get(item, 0)
+        # key and defult value as paramethers. if key appears in the 
+        #dictionary, returns value, otherwise returns defult value.
+    return sum
+    
+test1=calculateHandlen({'j': 1, 'z': 1, 'd': 2, 'v': 1, 'n': 1, 'i': 1, 'b': 1, 'm': 1, 'u': 2})
+test2=calculateHandlen({'a': 1, 'c': 0, 'b': 1})
