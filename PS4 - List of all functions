@@ -1,0 +1,13 @@
+List of all functions!
+ 
+Lista funkcija: WordGame xx gotove, x moje
+xx1. loadWords() - returns list
+xx2. getFrequencyDict(sequence) - returns dictinonary (from string or list)
+xx3. dealHand(n) - returns dictionary (sum of values = n)
+xx4. displayHand(hand) - display dictionary hand
+x5. isValidWord(word, hand, wordList)- returns True or False
+x6. getWordScore(word, n) - n is hand size, returns int >= 0
+x7. updateHand(hand, word) - returns dictionary copyHand
+x8. calculateHandlen(hand)- returns integer
+x9. playHand(hand, wordList, n) - calling functions inside functions with help of PSEUDOCODE
+x10. playGame(wordList) - calling functions inside function, adjusting the flow of the game
