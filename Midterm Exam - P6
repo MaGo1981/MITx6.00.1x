@@ -1,0 +1,37 @@
+# Problem 6
+
+# Write a function that satisfies the following docstring:
+
+# def largest_odd_times(L):
+#     """ Assumes L is a non-empty list of ints
+#         Returns the largest element of L that occurs an odd number 
+#         of times in L. If no such element exists, returns None """
+    
+# For example, if
+
+# largest_odd_times([2,2,4,4]) returns None
+# largest_odd_times([3,9,5,3,5,3]) returns 9
+# Paste your entire function, including the definition, in the box below. 
+# Do not leave any debugging print statements.
+
+def largest_odd_times(L):
+    """ Assumes L is a non-empty list of ints
+        Returns the largest element of L that occurs an odd number 
+        of times in L. If no such element exists, returns None """
+    newdict = {}
+    largest = 0
+    dict = {x:L.count(x) for x in L}
+    for key in dict.keys():
+        #print (dict[key])
+        if dict[key]%2 == 1:
+            newdict[key] = dict[key] # default_data['item3'] = 3
+    if len(newdict) == 0:
+        return None
+    else:  
+        for key in newdict:
+            if key > largest:
+                largest = key
+        return largest
+        
+ # largest_odd_times([3, 2])
+ # largest_odd_times([2, 4, 5, 4, 5, 4, 2, 2])
