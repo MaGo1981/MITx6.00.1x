@@ -103,3 +103,44 @@ PS3 Problem 1 - Is the Word Guessed -  function (string into list OF LETTERS, co
 PS3  Problem 2 - Printing Out the User's Guess - function (string into list OF LETTERS, compare lists with indexing FOR-IN-RANGE-LEN, mutation, join - list into string).docx
 PS3 Problem 3 - Printing Out all Available Letters - function (string.ascii_lowercase into list, for in mutation - remove, join list into strint).docx
 PS3 Problem 4 - The Game - function (boolean, list as an argument to a function, mutation, while, function calls other functions, break).docx
+7.1 Video - Programming Challenges.mp4
+7.2 Video - Classes of Tests.mp4
+7.3 Exercise 1 (black box testing).docx
+7.4 Exercise 2 (black box testing).docx
+7.5 Exercise 3 (glass box testing).docx
+7.6 Exercize 4 (glass box testing).docx
+7.7 Exercise 5 (glass box testing).docx
+7.8 Video - Bugs.mp4
+7.9 Exercisee - Integer Division (debugging - while loop).docx
+7.10 Video - Debuging.mp4
+7.11 Exercise 6 (debugging - recursion, return).docx
+7.12 Exercise 7 (debugging factorial function - recrusion, base case, return).docx
+7.13 Debugging Example.mp4
+8.1 Video - Exceptions.mp4
+8.2 Exercise 1 (type error, syntacs error, value error, name error).docx
+8.3 Video - Exceptions Examples.mp4
+8.4 Video - Exceptions as Control Flow.mp4
+8.5 Exercise 2 (functions, try-except-except-else-finally, for-in-range-len, IndexError - recursion, ZeroDivisionError, raise exception).docx
+8.6 Exercise - simple divide (functions, try-except, ZeroDivisionError, return).docx
+8.7 Video - Assertions.mp4
+8.8 Exercise 3 (functions, max, for-in-range len, return, try-except, ZeroDivisionError, pre condition, post condition, assert).docx
+PS4 -  1. Introduction.docx
+PS4 - 2. Getting Started.docx
+PS4 - 3. Problem 1 - Word Scores - getWordScore(word, n) - n is hand size, returns int (function, dictionary, indexing,  for-in, boolean, len, return).docx
+PS4 - 4. Problem 2  - Dealing with Hands (dictionary display, get method, string, indexing, for-in-range, keys method, print in same line, random.randrange, copy method).docx
+PS4 - 5. Problem 3 - Valid Words (function, boolean, for-in, if-in, return).docx
+PS4 - 6. Problem 4 - Hand Length (dict.values() method, sum() method; GET method).docx
+PS4 - 7. Problem 5 - Playing A Hand (pseudocode, function in while loop, input, function in if-else boolean).docx
+PS4 - 8. Problem 6 - Playing a Game (implementing functions, while - if - elif - else; break, cool trick about print).docx
+PS4 - 9. Computer Choosing a Word and Playing a Hand (pseudocode, implementing functions, for k,v in dict, if - boolean, function in while loop).docx
+PS4 - 10. Problem 7 - You and your Computer (import, while, if, elif, else-boolen, break).docx
+ME -  1. Introduction.docx
+ME -  2. Problem 1(swamp values, reading code, executing code, frame, testing code, infinite loop, recursion, touple).docx
+ME -  3. Problem 2 (lists, break, mutable vs imutable, exception (error)).docx
+ME -  4. Problem 3 (data set inside data set, function names, arbitrary precision arithmetic).docx
+ME -  5. Problem 4 (is_triangular - function, while, if, return).docx
+ME -  6. Problem 5 (print_without_vowels - for_in, if_else, len, replace method).docx
+ME -  7. Problem 6 (largest_odd_times -  list into dict, for-in, if, mod operator, len, return).docx
+ME -  8. Problem 7 (dict_invert - iterable, keys, values, methods, lookup).docx
+ME -  9. Problem 8 (general_poly - calling function inside function, return function, for in, len, two functions - one call - double calling, nested functions).docx
+ME -  10. Problem 9 (is_list_permutation - iterable, list into dict, keys, values, boolean, return, lookup value by key, lookup key by value, if - else, return, tuple, referencing, testing).docx
