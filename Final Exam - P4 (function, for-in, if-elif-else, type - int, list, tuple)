@@ -1,0 +1,48 @@
+# Problem 4
+#  Bookmark this page
+# Problem 4
+# 20.0 points possible (graded)
+# You are given the following definitions:
+# •   A run of monotonically increasing numbers means that a number at position k+1 in the sequence is greater than or equal to the number at position k in the sequence.
+# •   A run of monotonically decreasing numbers means that a number at position k+1 in the sequence is less than or equal to the number at position k in the sequence.
+# Implement a function that meets the specifications below.
+# def longest_run(L):
+#     """
+#     Assumes L is a list of integers containing at least 2 elements.
+#     Finds the longest run of numbers in L, where the longest run can
+#     either be monotonically increasing or monotonically decreasing. 
+#     In case of a tie for the longest run, choose the longest run 
+#     that occurs first.
+#     Does not modify the list.
+#     Returns the sum of the longest run. 
+#     """
+#     # Your code here
+# For example:
+# •   If L = [10, 4, 3, 8, 3, 4, 5, 7, 7, 2] then the longest run of monotonically increasing numbers in Lis [3, 4, 5, 7, 7] and the longest run of monotonically decreasing numbers in L is [10, 4, 3]. Your function should return the value 26 because the longest run of monotonically increasing integers is longer than the longest run of monotonically decreasing numbers.
+# •   If L = [5, 4, 10] then the longest run of monotonically increasing numbers in L is [4, 10] and the longest run of monotonically decreasing numbers in L is [5, 4]. Your function should return the value 9 because the longest run of monotonically decreasing integers occurs before the longest run of monotonically increasing numbers.
+# Paste your entire function, including the definition, in the box below. Do not leave any debugging print statements.
+
+def max_val(t): 
+    """ t, tuple or list
+        Each element of t is either an int, a tuple, or a list
+        No tuple or list is empty
+        Returns the maximum int in t or (recursively) in an element of t """ 
+    max_val = 0
+    for element in t:
+        #print (type(element))
+        if type(element)== int:
+            if element > max_val:
+                max_val = element
+        elif type(element) == list:
+            for eList in element:
+                if eList > max_val:
+                    max_val = eList
+        elif type(element) == tuple:
+            for eTuple in element:
+                if eTuple > max_val:
+                    max_val = eTuple
+            
+        else:
+            continue
+    return max_val
+max_val((4, 20, 3, 1, 7, 7, 20, 3))
