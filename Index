@@ -144,3 +144,83 @@ ME -  7. Problem 6 (largest_odd_times -  list into dict, for-in, if, mod operato
 ME -  8. Problem 7 (dict_invert - iterable, keys, values, methods, lookup).docx
 ME -  9. Problem 8 (general_poly - calling function inside function, return function, for in, len, two functions - one call - double calling, nested functions).docx
 ME -  10. Problem 9 (is_list_permutation - iterable, list into dict, keys, values, boolean, return, lookup value by key, lookup key by value, if - else, return, tuple, referencing, testing).docx
+9.1 Video - Object Oriented Programming.mp4
+9.2 Video - Class Instances.mp4
+9.3 Exercise 1 (object instance, __init__, data atributes, self, dot notation - using method on instance of class).docx
+9.4 Video - Methods.mp4
+9.5 Exercise 2 (using instance, data atribute vs local variable, inheriting methods, using self, two variables - one object).docx
+9.6 Exercise 3 (x vs self.x  - using self to define frame, assigning values, each instance of a class has its own frame, getters).docx
+9.7 Video - Classes Examples.mp4
+9.8 Exercise - Coordinate ( getters vs setters, init, str, assert, string representation of a valid Python expression, self, other).docx
+9.9 Exercise - int set (Initialize a new instance of class within a method).doc.docx
+9.9 Exercise - int set (two instances of class for parameters, __init__, insert, member, remove, try-except, ValueError, intersect, string representation, len, if not x in y).docx
+9.10 Video -Why OOP.mp4
+9.11 Video - Hierarchies.mp4
+9.12 Exercise - spell (subclass, superclass, instances, inheritance, functions with instances as parameters, hierarchy & changes).docx
+9.13 Exercise 4 (data atributes - inheritance procedure rule - top to bottom - last is current; methods (procedural atributes) - inheritance procedure rule - left to right - first is current).docx
+9.14 Video - Class Variables.mp4
+10.1 Video - Building a Class.mp4
+10.2 Video - Visualizing the Hierarchy.mp4
+10.3 Video - Adding another Class.mp4
+10.4 Video - Using Inherited Methods.mp4
+10.5 Exercise hand (regular function vs OOP function, for - in, try - except, if, return, self).docx
+10.6 Exercise 1 (len, atributes, dict, key, value).docx
+10.7 Video - Gradebook Example.mp4
+10.8 Video - Generators.mp4
+10.9 Exercise genPrimes (list, while True - else, for-in, break, append, yield).docx
+10.10 Exercise 2 (generator vs function, generator and memory, yield q&a).docx
+PS5 - Introduction - The Caesar Cipher( string.ascii_lowercase, encryption, decryption, chiper, plaintext, chipertext)
+PS5-P1- Built the Shift Dictionary and Apply Shift (string into dict, for-in, index() vs find(), mod %, calling fun with self paramether, assigning instance of class to variable inside setter function)
+PS5-P2 - PlaintextMessage (implementing class vs using class, keys(), copying a dict, inheriting)
+PS5-P3 CiphertextMessage (inharitance, for in range, apply methods inside function - dot notation, boolean)
+PS5-P4 Decrypt a Story (function as method parameter)
+11.1 Video - Program Efficiency.mp4
+11.2. Exercise 1 (counting operations relative to input, best case, worst case, average case).docx
+11.3 Exercise 2 (counting operations, order of growth, count relative to input -  log2(n), len(L) ).docx
+11.4 Video -  Big Oh Notation.mp4
+11.5 Exercise 3 (choose input, big O, laws of multiplication and addition, quadratic-polynomial compexity order).docx
+11.6 Exercise 4 (complexity order recognition - linear, constant and quadratic - polynomical, big O).docx
+11.7 Video - Complexity Classes.mp4
+11.8 Exercise 5 (Order of growth - hierarchy).docx
+11.9 Video - Analyzing Complexity.mp4
+11.10 KI_Wa8DA4_Y.srt
+11.10 KI_Wa8DA4_Y.txt
+11.10 Video - More Analyzing Complexity.mp4
+11.11 Exercise 6 (complexity order recognition - order of growth - constant, linear, log).docx
+11.12 Gur2OUe8Was.srt
+11.12 Gur2OUe8Was.txt
+11.12 Video - Recursion Complexity.mp4
+11.13 Exercise 7 (order of growth - linear, log, quadratic).docx
+11.14 Exercise 8 (complexity order, order of growth, hierarchy).docx
+11.14 Exercise 8.docx
+12.1 Video - Search Algorithms.mp4
+12.1 Ztoj69Ok4yg.srt
+12.1 Ztoj69Ok4yg.txt
+12.2 Edeb8ues1cA.srt
+12.2 Edeb8ues1cA.txt
+12.2 Video - Bisection Search.mp4
+12.3 Exercise 1 (indirection - indirect refrencing [] (indexing), range, list).docx
+12.4 Exercise 2 (search algorithms on sorted sets of data, for in range, if).docx
+12.5 Exercise 3 (search algorithms on sorted sets of data, for in range, if - elif).docx
+12.6 Exercise 4 (search algorithms on sorted sets of data, recursion, indexing error).docx
+12.7 Video - Bogo Sort.mp4
+12.7 yOHAzZjUbEE.srt
+12.7 yOHAzZjUbEE.txt
+12.8 hwYb27S6GaQ.srt
+12.8 hwYb27S6GaQ.txt
+12.8 Video - Bubble Sort.mp4
+12.9 72pcR7C9vdo.srt
+12.9 72pcR7C9vdo.txt
+12.9 Video - Selection Sort.mp4
+12.10 Exercise 5 (selection sort - sorting without creating a new list (sorted vs unsorted part), comparing num of steps, O(n^2)).docx
+12.11 Exercise 6 (selection sort vs bubble sort - sorting without creating a new list, comparing num of steps, O(n^2), num of entries).docx
+12.12 61Z9-RP04xk.srt
+12.12 61Z9-RP04xk.txt
+12.12 Video - Merge Sort.mp4
+12.13 Exercise 7 (linear search vs binary search + mergeSort - algorithm comparison O(n) vs O(nlog(n)) ).docx
+PS6- Problem 1(asymptotic complexity, Bisection search).docx
+PS6- Problem 2 (Indirection, binary search complexity, selection sort complexity, merge sort recursive version).docx
+PS6- Problem 3 (order of growth classes).docx
+PS6- Problem 4 (order of growth classes).docx
+PS6- Problem 5 (linear search).docx
+PS6- Problem 6 (increasing or decreasing order or sorting, swampSort).docx
