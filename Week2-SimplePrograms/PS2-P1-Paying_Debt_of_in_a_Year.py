@@ -75,7 +75,7 @@ def oneYearCCBalance(startBalance, annualInterestRate, monthlyPaymentRate):
     for month in range(12):
         endBalance = (startBalance * annualInterestRate/12 + startBalance) - ((startBalance * annualInterestRate/12 + startBalance) * monthlyPaymentRate)
         endBalance = round(endBalance, 2)
-        print ("Month ", month, " Remaining balance:", endBalance)
+        print ("Month ", month+1, " Remaining balance:", endBalance)
         startBalance=endBalance
 
 oneYearCCBalance(42, 0.2, 0.04)
