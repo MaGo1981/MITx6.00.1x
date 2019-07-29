@@ -27,28 +27,31 @@
 # Test Cases to Test Your Code With. Be sure to test these on your own machine - and that you get the same output! - before running your code on this webpage!
 
 
-
-def BS_PayingDebtOffinAYear(balance, annualInterestRate):
-    monthlyInterestRate = annualInterestRate/12.0
-    resetBalance = balance
-
-    epsilon = 0.01
-    lower = resetBalance / 12.0
-    upper = (resetBalance * (1 + monthlyInterestRate)**12) / 12.0
-
-    payment = (lower + upper) / 2.0
-    numGuess = 0
-    while abs(resetBalance) > epsilon:
-        resetBalance = balance
-        numGuess = numGuess + 1
+def oneYearDebtPayoffBS(balance, annualInterestRate):
+    low=balance/12
+    high=(balance*(1+annualInterestRate)**12)/12
+    payment=(low+high)/2
+    epsilon=0.000001
+    startBalance=balance #  We don't want to overwrite the original value of balance. We need to save that value somehow for later reference!
+    num_guesses=0
+    while abs(startBalance)>epsilon:
+        startBalance=balance # Later reference of balance!!
+        num_guesses+=1
         for month in range(1,13):
-            resetBalance -= payment
-            resetBalance += resetBalance * monthlyInterestRate
-        if resetBalance > 0:
-            lower = payment
+            endBalance = (startBalance * annualInterestRate/12 + startBalance) - payment
+            #print ("Month ", month, " Remaining balance:", endBalance)
+            startBalance=endBalance
+        if startBalance>0:
+            low=payment # increase the payment
         else:
-            upper = payment
-        payment = (lower + upper) / 2.0
-    return payment
-lowestPayment = BS_PayingDebtOffinAYear(9487, 0.15)  
-print ("Lowest Payment:", round(lowestPayment, 2))
+            high=payment #decrease the payments
+        payment=(high+low)/2
+    print("payment amount: ", round(payment))
+    print("number of guesses: ", num_guesses)
+
+
+
+oneYearDebtPayoffBS(3329, 0.2)
+oneYearDebtPayoffBS(4773, 0.2)
+oneYearDebtPayoffBS(3926, 0.2)
+oneYearDebtPayoffBS(5000, 0.07)
